@@ -8,5 +8,6 @@ class Solution:
                 return True
         return False
 
+
     def sumOfSquaresOfNums(self, n):
         return sum([int(c) * int(c) for c in str(n)])
